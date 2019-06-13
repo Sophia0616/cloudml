@@ -1,4 +1,7 @@
-Sys.setenv(R_CONFIG_ACTIVE = "cloudml")
+Sys.setenv(R_CONFIG_ACTIVE = "cloudml", 
+          R_DEFAULT_SAVE_VERSION = 2, 
+          R_DEFAULT_SERIALIZE_VERSION = 2
+)
 
 # required R packages
 CRAN <- c(
