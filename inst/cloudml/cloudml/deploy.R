@@ -8,7 +8,6 @@ CRAN <- c(
   "purrr",
   "modelr",
   "tensorflow",
-  "cloudml",
   "keras",
   "tfruns",
   "tfestimators",
@@ -16,6 +15,7 @@ CRAN <- c(
 )
 
 GITHUB <- list(
+  "Sophia0616/cloudml"
 )
 
 # validate resources
