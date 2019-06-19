@@ -12,7 +12,7 @@ CRAN <- c(
   "tfruns",
   "tfestimators",
   "packrat", 
-  "devtools"
+  "cloudml"
 )
 
 GITHUB <- list(
@@ -91,8 +91,6 @@ retrieve_packrat_packages <- function(cache_path) {
     packrat::on()
   }
 }
-
-devtools::install_github("Sophia0616/cloudml")
 
 # discover available R packages
 installed <- rownames(installed.packages())
